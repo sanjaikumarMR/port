@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Personal Portfolio Website</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="https://kit.fontawesome.com/5a1213fbb3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+      <div class="container"> 
+         <nav>
+            <img src="image/360_F_524673483_l6BieJxFUe0acXaVt6CJbjBTCBtxrI4U.jpg"   class="logo"> 
+            
+            <ul id="sidemenu">
+               <li> <a href="#header">Home</a></li>
+               <li> <a href="#about">About</a></li>
+               <li> <a href="#services">Service</a></li>
+               <li> <a href="#portfolio">Portfolio</a></li>
+               <li> <a href="#contact">Contact</a></li>
+               <i class="fas fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+
+            <i class="fas fa-solid fa-bars"onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            
+            <p>welcome  <i class="fa-regular fa-face-smile" style="color: #e60a0a;"></i> <i class="fa-solid fa-magnifying-glass-chart"></i> </p>
+            <h1>Hi, I'm <span>Sanjai Kumar </span> <br>from india </h1>
+        </div>
+        <div class="social-icon">
+            <a href="https://www.instagram.com/sanjai__m_r?igsh=ajBvaHNyMHVjbmVp"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/sanjaikumar-m-r"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/sanjaikumarMR"><i class="fa-brands fa-github" ></i></a>
+         </div>    
+      </div>
+</div>
+<!-- -----------about----------- -->
+<div id="about"> 
+      <div class="container">
+            <div class="row">
+                  <div class="about-col-1">
+                    <img src="image/WhatsApp Image 2023-09-24 at 16.57.24.jpg">    
+                  </div>
+                  <div class="about-col-2">
+                       <h1 class ="sub-title">About Me</h1> 
+                       <p> I'm Student and a data analyst with over a year experince </p>
+                       
+                       <p>
+                        I'm dedicated student with a passion for data science and machine learning, I am eager to apply my knowledge and skills in a professional setting.!,skilled in Python and R programming languages.
+                        With hands-on experience in Python and R programming languages, I have developed a strong foundation in data analysis, machine learning, and statistical modeling. 
+                        My academic projects, including the creation of a disease predictor and an autocomplete system for email composition, demonstrate my ability to apply theoretical concepts to practical problems.
+                        Additionally, I have gained valuable experience through an internship in asset auditing and have completed a Venture Creation Program, further honing my analytical and problem-solving abilities. 
+                        I am enthusiastic about leveraging my skills to contribute to innovative projects and am actively seeking opportunities to grow and learn in a dynamic work environment. 
+                        My goal is to collaborate with a forward-thinking team where I can make a meaningful impact while continuing to develop as a professional in the field of data science and machine learning.
+                        I am passionate about exploring the intersection of data science and space exploration, with a keen interest in interplanetary travel. 
+                        I am committed to continuous learning and professional growth in these dynamic fields.
+                       </p>
+                       <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>   
+                        <p class="tab-links " onclick="opentab('experince')">Experince</p>   
+                        <p class="tab-links " onclick="opentab('education')">Education</p>   
+                       </div> 
+                       <div class="tab-contents active-tab" id="skills">
+                         <ul>
+                              <li><span>My exploration</span><br>Data analysis,trend analysis,visuvallation</li>
+                              <li><span>problem detections</span><br>Solution Suggestion</li>
+                              <li><span>Trend Analysis</span><br>Brief Explainations of step to take</li>
+
+                         </ul>
+                       </div>
+                       <div class="tab-contents" id="experince">
+                         <ul>
+                              <li><span>Data Analysis</span><br>On data analysis field I have quite good experince to hand any problem  </li>
+                              <li><span></span><br>Problem Detections</li>
+                              <li><span></span><br><a href="https://www.linkedin.com/in/sanjaikumar-m-r"><i class="fa-brands fa-linkedin"></i></a></li>
+
+                         </ul>
+                       </div>
+                       <div class="tab-contents" id="education">
+                         <ul>
+                              <li><span>Schooling</span><br>Dainel thomas-10th-2019,12th-2021</li>
+                              <li><span>UG-program</span><br>Sathyabama University-2021-2025</li>
+                              <li><span></span><br></li>
+
+                         </ul>
+                       </div>
+                  </div>
+            </div>
+      </div>
+</div>
+<!-- -------------------servuce---------------- -->
+<div id="services">
+      <div class="container">
+            <h1 class ="sub-title">My Exploration In Fields</h1>
+            <div class="services-list">
+                  
+                  <div >
+                        
+                        <i class="fa-solid fa-house"></i>
+                        <h2>Data Analysis</h2>
+                        
+                        <p>Data Visualization: Expertise in creating insightful visualizations using tools like Matplotlib, Seaborn, and 
+                              Tableau to communicate data-driven insights.</p>
+                        <p>Predictive Modeling: Proficient in developing and deploying machine learning models using Python and
+                                    R to forecast trends and inform strategic decisions.</p>
+                        <a href="https://www.linkedin.com/in/sanjaikumar-m-r">Learn More</a>
+                       
+                  </div>
+                  <div >
+                        <i class="fa-regular fa-user"></i>
+                        <h2>Analysis and Trend setter</h2>
+                        <p> Data Analysis: Expertise in examining complex datasets to extract meaningful insights and support strategic decision-making.</p>
+                        <p>Trend Identification: Skilled in identifying and forecasting emerging trends to stay ahead of market changes and drive innovation.</p>
+                        <a href="#">Learn More</a>
+                  </div>
+                  <div >
+                        <i class="fa-solid fa-database"></i>
+                        <h2>Foundation</h2>
+                        <p>My skills help to create or repair the foundation change weak to strong base</p>
+                        <a href="https://www.linkedin.com/in/sanjaikumar-m-r">Learn More</a>
+                  </div>
+            </div> 
+      </div>
+</div>
+<!-- ___-----------prot----------- -->
+<div id="portfolio">
+      <div class="container">
+            <h1 class ="sub-title">My works and Projects</h1>
+            <div class="work-list">
+                  <div class="work">
+                        <img src="image/2.png" >
+                        <div class="layer">
+                              <h3>Check my projects at my gitup profile</h3>
+                              <p></p>
+                              <a href="https://github.com/sanjaikumarMR">Learn More</a>
+                        </div>
+                  </div>
+                  <div class="work">
+                        <img src="image/problemsolution.jpg" >
+                        <div class="layer">
+                              <h3>problem analysis</h3>
+                              <p> Solution is porvided basis on different basis</p>
+                              <a href="https://github.com/sanjaikumarMR">Learn More</a>
+                        </div>
+                  </div>
+                  <div class="work">
+                        <img src="image/yuu.jpg" >
+                        <div class="layer">
+                              <h3>My Certificate <i class="fa-solid fa-list-check"></i></h3>
+                              <p></p>
+                              <a href="https://www.linkedin.com/in/sanjaikumar-m-r">Learn More</a>
+                        </div>
+                  </div>
+            </div>
+
+
+            <a href="https://www.linkedin.com/in/sanjaikumar-m-r" class="btn">see more</a>
+      </div>
+</div>
+<!-- ----------------------------contact------------ -->
+<div id="contact">
+      <div class="container">
+            <div class="row">
+                  <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope" style="color: #e61448;"></i> m.sanjaikumar721@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> 73055565550</p>
+                        <div class="social-icon">
+                           <a href="https://www.instagram.com/sanjai__m_r?igsh=ajBvaHNyMHVjbmVp"><i class="fa-brands fa-instagram"></i></a>
+                           <a href="https://www.linkedin.com/in/sanjaikumar-m-r"><i class="fa-brands fa-linkedin"></i></a>
+                           <a href="https://github.com/sanjaikumarMR"><i class="fa-brands fa-github" ></i></a>
+                        </div>
+                        <a href="image/Resume.pdf" download class="btn btn2">download cv</a>
+                  <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                              <input type="text" name="name" placeholder="yourname" required>
+                              <input type="email" name="email" placeholder="your email" required>
+                              <textarea name="message"   rows="6"placeholder="your message" required></textarea>
+                              <button type="submit" class="btn btn2">submit</button>
+                        </form>
+                        <span id="msg">Hello ! <i class="fa-solid fa-ghost"></i></span>
+                  </div>
+                        
+
+                        
+                  </div>
+            </div>
+      </div>
+      <div class="copright">
+            <p>copright © sanjai kumar  <i class="fa-solid fa-heart"></i></p>
+      </div>
+</div>
+
+<script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname)
+      {
+            
+            for (tablink of tablinks)
+            {
+            tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents){
+                  tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+      }
+
+</script>
+<script>
+      var sidemenu= document.getElementById("sidemenu");
+
+      function openmenu(){
+            sidemenu.style.right="0";
+      }
+      function closemenu(){
+            sidemenu.style.right="-200px";
+      }
+      
+
+</script>
+
+
+<script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzF37nh8gzFp10CaOqWLCHz0k-0G1RKlksTIsEvV5AKldRmf1aNMw33-RkgQzAKe4JQwQ/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                  msg.innerHTML =""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+      
+</body>
+</html>
+        
