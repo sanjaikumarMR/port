@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Personal Portfolio Website</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="https://kit.fontawesome.com/5a1213fbb3.js" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js" > </script>
+      <script type="text/javascript">
+        (function() {
+        emailjs.init("dL9otAdQE2TRD4ZUz");
+        })(); 
+      </script>
+      
+
+
+
+
+
+</head>
+<body>
+<div id="header">
+      <div class="container"> 
+         <nav>
+            <img src="image/360_F_524673483_l6BieJxFUe0acXaVt6CJbjBTCBtxrI4U.jpg"   class="logo"> 
+            
+            <ul id="sidemenu">
+               <li> <a href="#header">Home</a></li>
+               <li> <a href="#about">About</a></li>
+               <li> <a href="#services">Service</a></li>
+               <li> <a href="#portfolio">Portfolio</a></li>
+               <li> <a href="#contact">Contact</a></li>
+               <i class="fas fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+
+            <i class="fas fa-solid fa-bars"onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>
+                Welcome 
+                <i class="fa-regular fa-face-smile" style="color: #e60a0a;"></i> 
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+            </p>
+            <h1>
+                <span id="typing-text"></span><span class="cursor">|</span>
+            </h1>
+        </div>
+        
+        <div class="social-icon">
+            <a href="https://www.instagram.com/sanjai__m_r?igsh=ajBvaHNyMHVjbmVp"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/sanjaikumar-m-r"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/sanjaikumarMR"><i class="fa-brands fa-github" ></i></a>
+         </div>    
+      </div>
+</div>
+<!-- -----------about----------- -->
+<div id="about"> 
+      <div class="container">
+            <div class="row">
+                  <div class="about-col-1">
+                    <img src="image/WhatsApp Image 2023-09-24 at 16.57.24.jpg">    
+                  </div>
+                  <div class="about-col-2">
+                       <h1 class ="sub-title">About Me</h1> 
+                       <p> I'm Student and a data analyst with over a year experince </p>
+                       
+                       <p>
+                        Highly motivated student and data analyst with expertise in Java, R, and data analysis, Microsoft 360, Excel, specializing in Java
+ development, data science, and machine learning. Experienced in building scalable applications and predictive models, with key
+ projects including a Space Debris Tracking Dashboard and a Disease Predictor. Completed internships as a Java Developer at
+ Ladera Technologies, ML Intern at Heuristers Technology Solutions LLP, and in Asset Auditing, gaining hands-on experience in
+ OOP, application design, data visualization, statistical modeling, and problem-solving. Additionally, completed a Venture Creation
+ Program, enhancing strategic thinking and innovation
+                       </p>
+                       <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>   
+                        <p class="tab-links " onclick="opentab('experince')">Experince</p>   
+                        <p class="tab-links " onclick="opentab('education')">Education</p>   
+                       </div> 
+                       <div class="tab-contents active-tab" id="skills">
+                         <ul>
+                              <li><span>Data Science </span><br>Data analysis,trend analysis,visuvallation,Modeling</li>
+                              <li><span>Java Developing</span><br>Core Java programming and software development, JDBC, Spring, Hibernate, RESTful APIs</li>
+                              <li><span>Database</span><br> SQL, NoSQL, and database management systems such as MySQL, MongoDB, and PostgreSQL, mysql sever and data warehousing</li>
+
+                         </ul>
+                       </div>
+                       <div class="tab-contents" id="experince">
+                         <ul>
+                              <li><span>Data Analysis</span><br>ML ENGINEER INTERN at Heuristers Technology Solutions LLP  </li>
+                              <li><span>JAVA FULL-STACK DEVELOPER</span><br> INTERN, LADERA TECHNOLOGY 
+                                    Experienced Full-Stack Developer with proficiency in Java, Spring Boot, SQL.</li>
+                              <li><span>ANALYSIS CONTENT</span><br>Internship in Asset Auditing Company: Gained hands-on experience
+                                    in data analysis and asset management <a href="https://www.linkedin.com/in/sanjaikumar-m-r"><i class="fa-brands fa-linkedin"></i></a></li>
+
+                         </ul>
+                       </div>
+                       <div class="tab-contents" id="education">
+                         <ul>
+                              <li><span>Schooling</span><br>Dainel thomas-10th-2019,12th-2021</li>
+                              <li><span>UG-program</span><br>Sathyabama University-2021-2025</li>
+                              <li><span></span><br></li>
+
+                         </ul>
+                       </div>
+                  </div>
+            </div>
+      </div>
+</div>
+<!-- -------------------servuce---------------- -->
+<div id="services">
+      <div class="container">
+            <h1 class ="sub-title">My Exploration In Fields</h1>
+            <div class="services-list">
+                  
+                  
+                  <div >
+                        <i class="fa-regular fa-user"></i>
+                        <h2>Software Development</h2>
+                        <p>Full-Stack Development: Proficient in building scalable web applications using front-end and back-end technologies like Java, HTML, CSS, and SQL.</p>
+                        <br>
+                        <p>Problem Solving: Strong ability to design efficient algorithms and write clean, maintainable code to solve real-world problems.</p>
+                        <br>
+                        <p>Data-Driven Development: Skilled in integrating data analysis into applications, enabling smart features like prediction, automation, and trend tracking.</p>
+                        
+
+                  </div>
+                  
+                  <div >
+                        
+                        <i class="fa-solid fa-house"></i>
+                        <h2>Data Analysis</h2>
+                        
+                        <p>Data Visualization: Expertise in creating insightful visualizations using tools like Matplotlib, Seaborn, and 
+                              Tableau to communicate data-driven insights.</p>
+                              <br>
+                        <p>Predictive Modeling: Proficient in developing and deploying machine learning models using Python and
+                                    R to forecast trends and inform strategic decisions.</p>
+                                    <a href="https://www.linkedin.com/in/sanjaikumar-m-r" target="_blank">Learn More</a>
+                       
+                  </div>
+                  <div >
+                        <i class="fa-solid fa-database"></i>
+                        
+                        <h2>Technical Backbone</h2>
+<p>I specialize in strengthening the core of any project by implementing best practices in software architecture, ensuring scalability and maintainability. transforming weak foundations into strong, reliable systems through thoughtful planning and robust development practices.</p>
+<a href="https://www.linkedin.com/in/sanjaikumar-m-r" target="_blank">Learn More</a>
+
+                  </div>
+            </div> 
+      </div>
+</div>
+<!-- ___-----------prot----------- -->
+<div id="portfolio">
+      <div class="container">
+            <h1 class ="sub-title">My works and Projects</h1>
+            <div class="work-list">
+                  <div class="work">
+                        <img src="image/2.png" >
+                        <div class="layer">
+                              <h3>Check my projects at my gitup profile</h3>
+                              <p></p>
+                              <a href="https://github.com/sanjaikumarMR" target="_blank">Learn More</a>
+                        </div>
+                  </div>
+                  <div class="work">
+                        <img src="image/yuu.jpg" >
+                        <div class="layer">
+                              <h3>My Courses and Certificates  <i class="fa-solid fa-list-check"></i></h3>
+                              <p></p>
+                              <a href="https://www.linkedin.com/in/sanjaikumar-m-r" target="_blank">Learn More</a>
+                        </div>
+                  </div>
+                  <div class="work">
+                        <img src="image/problemsolution.jpg" >
+                        <div class="layer">
+                              <h3>problem analysis</h3>
+                              <p> Solution is porvided basis on different basis</p>
+                              <a href="https://github.com/sanjaikumarMR" target="_blank">Learn More</a>
+                        </div>
+                  </div>
+                  
+            </div>
+
+
+            <a href="https://www.linkedin.com/in/sanjaikumar-m-r" class="btn">see more</a>
+      </div>
+</div>
+<!-- ----------------------------contact------------ -->
+<div id="contact">
+      <div class="container">
+            <div class="row">
+                  <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope" style="color: #e61448;"></i> m.sanjaikumar721@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> 73055565550</p>
+                        <div class="social-icon">
+                           <a href="https://www.instagram.com/sanjai__m_r?igsh=ajBvaHNyMHVjbmVp"><i class="fa-brands fa-instagram"></i></a>
+                           <a href="https://www.linkedin.com/in/sanjaikumar-m-r"><i class="fa-brands fa-linkedin"></i></a>
+                           <a href="https://github.com/sanjaikumarMR"><i class="fa-brands fa-github" ></i></a>
+                        </div>
+                        <a href="image/Resume.pdf" download class="btn btn2">download cv</a>
+                  <div class="contact-right">
+                        <form>
+                              <input type="text" id="name" name="name" placeholder="your name" required>
+                              <input type="email" id="email" name="email" placeholder="your email" required>
+                              <textarea id="message" name="message" rows="6" placeholder="your message" required></textarea>
+                              <button onclick="sendemail(event)" type="submit" class="btn btn2">submit</button>
+                            </form>
+                            <span id="msg">Hello ! <i class="fa-solid fa-ghost"></i></span>
+                  </div>
+                        
+
+                        
+                  </div>
+            </div>
+      </div>      
+      <div class="copright">
+            <p>copright © sanjai kumar  <i class="fa-solid fa-heart"></i></p>
+      </div>
+</div>
+
+<script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname)
+      {
+            
+            for (tablink of tablinks)
+            {
+            tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents){
+                  tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+      }
+     
+</script>
+<script>
+      var sidemenu= document.getElementById("sidemenu");
+
+      function openmenu(){
+            sidemenu.style.right="0";
+      }
+      function closemenu(){
+            sidemenu.style.right="-200px";
+      }
+      
+
+</script>
+
+
+
+    <script>
+      function sendemail(event) {
+            event.preventDefault(); // prevent the form from refreshing the page
+        
+            var email = document.getElementById("email").value;
+            var from_name = document.getElementById("name").value;
+            var message = document.getElementById("message").value;
+        
+            var templateParams = {
+                email: email,
+                name: from_name,
+                message: message
+            };
+        
+            emailjs.send('service_ams3f09', 'template_67d18zp', templateParams)
+                .then(function(response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    alert("Sent successfully!");
+                    document.getElementById("msg").innerHTML = "Message sent! <i class='fa-solid fa-check'></i>";
+                }, function(error) {
+                    console.log('FAILED...', error);
+                    alert("Failed to send message.");
+                    document.getElementById("msg").innerHTML = "Failed to send <i class='fa-solid fa-xmark'></i>";
+                });
+        }
+        
+
+    </script>
+
+
+<script>
+      const texts = ["Hi, I'm Sanjai Kumar"];
+const typingSpeed = 100;
+const eraseSpeed = 50;
+const delayBetween = 2000;
+
+let textIndex = 0;
+let charIndex = 0;
+let typing = true;
+const typingText = document.getElementById("typing-text");
+
+function typeLoop() {
+    if (typing) {
+        if (charIndex < texts[textIndex].length) {
+            typingText.textContent += texts[textIndex].charAt(charIndex);
+            charIndex++;
+            setTimeout(typeLoop, typingSpeed);
+        } else {
+            typing = false;
+            setTimeout(typeLoop, delayBetween);
+        }
+    } else {
+        if (charIndex > 0) {
+            typingText.textContent = texts[textIndex].substring(0, charIndex - 1);
+            charIndex--;
+            setTimeout(typeLoop, eraseSpeed);
+        } else {
+            typing = true;
+            textIndex = (textIndex + 1) % texts.length;
+            setTimeout(typeLoop, typingSpeed);
+        }
+    }
+}
+
+document.addEventListener("DOMContentLoaded", typeLoop);
+
+</script>    
+<script>
+      // Get the user agent string
+      const ua = navigator && navigator.userAgent;
+    
+      // Check if the user is on a mobile device
+      const isMobileDevice = ua && /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(ua);
+    
+      // If the device is not mobile and the platform is Windows, add a class to the <html> tag
+      if (!isMobileDevice && navigator && navigator.platform.toLowerCase().includes('win')) {
+        const htmlTag = document.getElementsByTagName('html')[0];
+        htmlTag.setAttribute('class', 'db-win');
+      }
+    
+      // Google Tag Manager - 10Web tracking setup
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+    
+        const f = d.getElementsByTagName(s)[0];
+        const j = d.createElement(s);
+        const dl = l !== 'dataLayer' ? '&l=' + l : '';
+        
+        j.async = true;
+        j.src = 'https://metrics.10web.io/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-M6GPZ95');
+    </script>
+    <script>
+      (function(w, d, s, r, n) {
+        // Define Trustpilot object name
+        w.TrustpilotObject = n;
+    
+        // Create Trustpilot function queue if not already defined
+        w[n] = w[n] || function() {
+          (w[n].q = w[n].q || []).push(arguments);
+        };
+    
+        // Create and configure the script tag
+        const a = d.createElement(s);
+        a.async = true;
+        a.src = r;
+        a.type = 'text/javascript';
+    
+        // Insert the script before the first script tag in the document
+        const f = d.getElementsByTagName(s)[0];
+        f.parentNode.insertBefore(a, f);
+    
+      })(window, document, 'script', 'https://invitejs.trustpilot.com/tp.min.js', 'tp');
+    
+      // Register Trustpilot with your business unit ID
+      tp('register', 'S3IP7FPvR0s3PILb');
+    </script>
+    <script>
+      let vh = window.innerHeight * 0.01;
+      // Then we set the value in the --vh custom property to the root of the document
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+  
+      // We listen to the resize event
+      window.addEventListener('resize', () => {
+        // We execute the same script as before
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+      });
+    </script>
+    
+    
+      
+</body>
+</html>
+        
